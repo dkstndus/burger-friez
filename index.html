@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/initial.min.css"/>
+    <link rel="stylesheet" href="css/swiper_customize.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--[if lt IE 9]>
+     <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--jqeury 라이브러리 가져오기-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+ </head>
+ <body>
+   <div class="back_to_top">
+     <a href="#intro">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+     </a>
+   </div>
+   <!--mobile menu button-->
+   <input type="checkbox" id="gnbcheck" name="gnbcheck">
+   <label for="gnbcheck" id="gnbbtn">
+     <span></span>
+     <span></span>
+     <span></span>
+   </label>
+   <header id="header">
+     <h1 id="top_logo"><a href="#"><img src="img/top_logo.png" alt="top_logo"></a></h1>
+     <nav id="gnb">
+       <label for="gnbcheck" id="mobile_close_btn"></label>
+       <ul>
+         <li><a href="#intro">event</a></li>
+         <li><a href="#special_menu">special menu</a></li>
+         <li><a href="#menu">menu</a></li>
+         <li><a href="#franchise">franchise</a></li>
+         <li><a href="#review">review</a></li>
+       </ul>
+     </nav>
+   </header>
+   <section id="intro">
+       <!-- Swiper -->
+     <div class="swiper-container">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide first"><img src="img/intro/chang-eop-seul-ra-i-deu-11582684637.jpg" alt=""></div>
+         <div class="swiper-slide second"><img src="img/intro/chang-eop-seul-ra-i-deu-21582684608.jpg" alt=""></div>
+         <div class="swiper-slide third"><img src="img/intro/chang-eop-seul-ra-i-deu-31582684620.jpg" alt=""></div>
+         <div class="swiper-slide fourth"><img src="img/intro/chang-eop-seul-ra-i-deu-41582685733.jpg" alt=""></div>
+       </div>
+       <!-- Add Arrows -->
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+     </div>
+   </section>
+   <main>
+     <!--menu section 노출영역-->
+     <section id="special_menu">
+       <div class="row">
+         <h2>SPECIAL MENU</h2>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/profile/sub02_102.png" alt="mytool img01">
+             <h3>시그니처 스타일</h3>
+             <p>마요네즈,케찹,피클을 사용한 미국 정통 버거</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/profile/sub02_104.png" alt="mytool img02">
+             <h3>다이어트 스타일</h3>
+             <p>버거번(빵)대신 양상추로 감싸 탄수화물을 뺀 저칼로기 버거</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/profile/sub02_103.png" alt="mytool img03">
+             <h3>엑스트라 스타일</h3>
+             <p>패티에 머스타드를 발라 굽고,피클과 소스를 2배로 넣은 이국적인 맛의 버거</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/profile/sub02_101.png" alt="mytool img04">
+             <h3>오리지널 스타일</h3>
+             <p>100%순쇠고기 패티 브리오슈번,버거앤프라이즈만의 특제소스를 사용한 버거</p>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section id="menu">
+       <div class="row">
+         <h2>MENU</h2>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger01.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>SPECIAL BURGER</h2>
+            <p>
+              <strong>불고기 버거&nbsp;:</strong>&nbsp;3,800won<br>
+              벌꿀이첨가된 특별한 불고기소스로 만든 스페셜 버거
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger02.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>SPECIAL BURGER</h2>
+            <p>
+              <strong>불고기더블치즈버거&nbsp;:</strong>&nbsp;5,500won<br>
+              벌꿀이 첨가된 불고기 소스에 단짠의 조화를 이룬 버거
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger03.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>SPECIAL BURGER</h2>
+            <p>
+              <strong>치즈몬스터버거&nbsp;:</strong>&nbsp;4,800won<br>
+              매콤한 치킨과 몬스터 특제소스와의 특별한 만남
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger04.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>SPECIAL BURGER</h2>
+            <p>
+              <strong>하와이안BBQ버거&nbsp;:</strong>&nbsp;6,300won<br>
+              불고기소스의 싱그러운 파인애플을 올린 하와이안 버거
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger05.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>SPECIAL BURGER</h2>
+            <p>
+              <strong>베이컨더블치즈버거&nbsp;:</strong>&nbsp;6,300won<br>
+              베이컨,패티,치즈 모두 더블!버거앤프라이즈의 대표 매뉴
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger06.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>ORIGINAL STYLE</h2>
+            <p>
+              <strong>오리지널 더블&nbsp;:</strong>&nbsp;5,500won<br>
+              버거앤프라이즈만의 특제소스를 사용한 더블패티버거
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger07.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>ORIGINAL STYLE</h2>
+            <p>
+              <strong>오리지널 싱글&nbsp;:</strong>&nbsp;3,800won<br>
+              100%순쇠고기,버거앤프라이즈만의 특제소스를 사용한 싱글패티버거
+            </p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+            <a href="#"><img src="img/portfolio/burger08.jpg" alt="portfolio img01" class="shadow"></a>
+            <h2>ORIGINAL STYLE</h2>
+            <p>
+              <strong>오리지널 3X3&nbsp;:</strong>&nbsp;5,800won<br>
+              100%순쇠고기,버거앤프라이즈만의 특제소스를 사용한 트리플 패티버거
+            </p>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section id="franchise">
+       <div class="row">
+         <h2>FRANCHISE</h2>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/mytool/img01.jpg" alt="mytool img01">
+             <h3>소자본 창업/초보자 창업</h3>
+             <p>셀프시스템과 손쉬운 조리과정으로 무경험자,초보자도 쉽게 운영가능</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/mytool/img03.jpg" alt="mytool img02">
+             <h3>통합 식자재 관리</h3>
+             <p>종합물류시스템 도입으로 신선하고 체계적인 식자재공급 및 관리 가능</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/mytool/img02.jpg" alt="mytool img03">
+             <h3>차별화된 운영지원</h3>
+             <p>다른 브랜드와 달리 1:1매장별 개별 마케팅 지원</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner none_type">
+             <img src="img/mytool/img04.jpg" alt="mytool img04">
+             <h3>퀄리티 높은 수제버거 메뉴</h3>
+             <p>신선한 재료들을 가지고 제조하여 퀄리티 높은 수제버거 메뉴 제공</p>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section id="review">
+       <div class="row">
+         <h2>REVIEW</h2>
+         <div class="column">
+           <div class="inner">
+              <img src="img/project/img06.jpg" alt="img01">
+              <h3>음료 무한리필과 감튀 맛나요ㅋㅋ</h3>
+              <p>두번째 방문 했습니다. 딱히 선호하는 브랜드의 버거는 없으나 버거킹의 햄버거랑 감자튀김이 생각 날대가 있는데...</p>
+              <p>2020-12-21</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner">
+              <img src="img/project/img07.jpg" alt="img02">
+              <h3>수제버거와 치킨이 좋네요</h3>
+              <p>아이가 버거는 좋아하는데 치킨을 싫어해서 치킨은 포기하고 버거 위주로 먹었는데 같이 주문할 수 있어서 참 좋...</p>
+              <p>2020-11-28</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner">
+              <img src="img/project/img05.jpg" alt="img03">
+              <h3>이게내가 상상하던 버거Z</h3>
+              <p>맛 별5점 소고기 패티맛이 느끼하지 않고 고소하게 느껴져서 기름지지 않고 부담없이 클리어 할수 있었다. 그리고...</p>
+              <p>2020-11-11</p>
+           </div>
+         </div>
+         <div class="column">
+           <div class="inner">
+              <img src="img/project/img08.jpg" alt="img04">
+              <h3>후..할말이 없네요..</h3>
+              <p>후..너무 맛있어서 할말이 없습니다! 인생살면서 다른곳만 다니다가 우연찮게 먹어본 버거 앤 프라이즈 였습니다. 이제껏...</p>
+              <p>2020-11-03</p>
+           </div>
+         </div>
+       </div>
+     </section>
+   </main>
+   <footer id="footer">
+     <div class="footer_top">
+       <!-- footer 상단 영역 -->
+       <div class="container">
+         <div class="row">
+           <div class="column footer_logo">
+             <!-- footer logo -->
+             <h3><a href="#"><img src="img/foot_logo.png" alt="top_logo"></a></h3>
+           </div>
+           <div class="column">
+             <!-- site map -->
+             <h4>site map</h4>
+             <ul>
+               <li><a href="#intro">event</a></li>
+               <li><a href="#myprofile">special menu</a></li>
+               <li><a href="#portfolio">menu</a></li>
+               <li><a href="#mytool">franchise</a></li>
+               <li><a href="#project">review</a></li>
+             </ul>
+           </div>
+           <div class="column">
+             <!-- contact us -->
+             <h4>contact us</h4>
+             <p>
+               인천연수구 송도미래로30 <br>
+               스마트밸리 A동 1210호 <br>
+               (송도동,스마트밸리지식산업센터) <br>
+               <strong>phone&nbsp;:</strong><a href="tel:+82-010-0000-000">+82-010-0000-0000</a><br>
+               <strong>Email&nbsp;:</strong><a href="mailto:mymail@naver.com">mymail@naver.com</a><br>
+             </p>
+           </div>
+           <div class="column news">
+             <!-- news -->
+             <h4>news</h4>
+             <ul>
+               <li><a href="#">- 버거 치킨 커피까지 메뉴의 다양성</a></li>
+               <li><a href="#">- 왜 수제버거인가?</a></li>
+               <li><a href="#">- 1인 2개 배장 오픈!</a></li>
+               <li><a href="#">- 버거앤프라이즈는 대한민국 어디든!</a></li>
+             </ul>
+             <form action="">
+               <input type="search" name="search"><input type="submit" value="search">
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="container">
+       <!-- footer 하단 영역 -->
+       <div class="copyright">
+         ⓒcopyright <strong>mypage</strong> .All Rights Reserved
+       </div>
+       <div class="credits">
+         Designed By <a href="mailto:aaa@naver.com">Myself</a>
+       </div>
+     </div>
+   </footer>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script>
+   <!-- Initialize Swiper -->
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,// 무한 반복
+      autoplay: { // 자동 플레이
+        delay: 2500, // 기준 ms 2500ms -> 2.5초
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+   </script>
+ </body>
+ </html>
