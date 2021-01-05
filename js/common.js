@@ -17,18 +17,4 @@ $(function(){
       $(".back_to_top").addClass("on");
     }
   });
-
-  /*section offset top값으로 class 추가*/
-  var wHeight = $(window).height();
-  $(window).scroll(function(){
-    var thisScrollTop = $(this).scrollTop();
-    $("section").each(function(){
-      var thisOffset = $(this).offset();
-      if( thisOffset.top <= thisScrollTop + 150 && thisScrollTop <= thisOffset.top + wHeight ){
-        $(this).addClass("active");
-      }
-    })
-  });
-
-
 });
